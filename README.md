@@ -1,1 +1,1 @@
-# moodify-project
+# moodify-app
