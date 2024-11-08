@@ -6,20 +6,20 @@ import { MagicCard } from './magic-card'; // Adjust the import path as necessary
 
 const features = [
   {
-    title: 'High Accuracy',
-    description: 'Achieve unparalleled precision in facial recognition with our advanced algorithms.',
+    title: 'Personalized Therapy Sessions',
+    description: 'Utilize real-time facial emotion recognition to tailor therapy sessions to individual emotional responses, enhancing effectiveness.',
   },
   {
-    title: 'Real-Time Processing',
-    description: 'Experience instant recognition and verification, enhancing user experience.',
+    title: 'Progress Tracking',
+    description: 'Monitor emotional development over time with detailed analytics, aiding in the assessment of therapeutic outcomes.',
   },
   {
-    title: 'Secure Data Handling',
-    description: 'We prioritize your privacy with robust data encryption and security measures.',
+    title: 'Secure Data Management',
+    description: 'Ensure client confidentiality with robust data encryption and compliance with healthcare privacy standards.',
   },
   {
-    title: 'Easy Integration',
-    description: 'Seamlessly integrate with your existing systems using our flexible API.',
+    title: 'Seamless Integration',
+    description: 'Easily incorporate our system into existing therapeutic practices with user-friendly interfaces and comprehensive support.',
   },
 ];
 
@@ -27,7 +27,7 @@ const FeaturesSection: React.FC = () => {
   return (
     <section className="py-20 bg-gray-100">
       <div className="container mx-auto px-6">
-        <h2 className="text-3xl md:text-4xl font-bold text-center">Features</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-funnel">Features</h2>
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-8">
           {features.map((feature, index) => (
             <motion.div

@@ -9,7 +9,8 @@ const config: Config = {
   ],
   theme: {
   	extend: {
-  		colors: {
+		  colors: {
+			"matt-black":"#333",
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
   			card: {
@@ -55,6 +56,12 @@ const config: Config = {
   			'color-3': 'hsl(var(--color-3))',
   			'color-4': 'hsl(var(--color-4))',
   			'color-5': 'hsl(var(--color-5))'
+		  },
+		  fontFamily: {
+				funnel: [ "Funnel Display", "sans-serif"],
+  			sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+  			serif: ['ui-serif', 'Georgia', 'Cambria', 'Times New Roman', 'Times', 'serif'],
+  			mono: ['ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'monospace']
   		},
   		borderRadius: {
   			lg: 'var(--radius)',

@@ -1,15 +1,17 @@
 import React from 'react';
 import HeroSection from '../components/ui/HeroSection';
 import FeaturesSection from '../components/ui/FeaturesSection';
+import Footer from '../components/ui/Footer'; // Adjust the import path as necessary
 
-
-const LandingPage: React.FC = () => {
+const App: React.FC = () => {
   return (
-    <div className="font-sans antialiased text-gray-900">
+    <div>
       <HeroSection />
       <FeaturesSection />
+      {/* Other components */}
+      <Footer />
     </div>
   );
 };
 
-export default LandingPage;
+export default App;
